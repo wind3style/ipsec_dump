@@ -1,0 +1,1 @@
+./ipsec_dump.py -s 0 -w esp_`hostname`_`date +%F_%H-%M-%S`.pcap -nvvi any esp
