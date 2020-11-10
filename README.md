@@ -1,8 +1,8 @@
 # ipsec_dump
-IPsec ESP truffic dumper for Wireshark with saving keys
+IPsec ESP truffic dumper for Wireshark with saving keys which allows to decrypt ESP traffic dump on IPsec VPN local host
 
 ## Instruction
-* Place file ipsec_dump.py and ipsec_dump_start_example.sh to linux OS with IPsec VPN
+* Place the files ipsec_dump.py and ipsec_dump_start_example.sh to linux OS with IPsec VPN
 * Execute ./ipsec_dump_start_example.sh for collecting keys and ESP truffic dumping
 * You will files:
   * esp_sa - SA keys for Wireshark
